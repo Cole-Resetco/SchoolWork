@@ -1,0 +1,51 @@
+<New_gun>
+:Name: FAL 
+:Type: Gun
+:Range: 2.5 Kilometers
+:Damage: 30 DMG
+:Caliber: 50 Caliber
+:Drop_Rate: 20%
+<End_item>
+<New_armor>
+:Name: Kevlar_vest
+:Type: Armor
+:AP: 20 AP
+:HP: 40 HP
+:Drop_Rate: 5%
+<End_item>
+<New_armor>
+:Name: Plate armor
+:Type: Armor
+:AP: 30 AP
+:HP: 30 HP
+:Drop_Rate: 10%
+<End_item>
+<New_gun>
+:Name: SMG
+:Type: Gun
+:Range: 1.0 kilometers
+:Damage: 15 DMG
+:Caliber: 22 Caliber
+:Drop_Rate: 40%
+<End_item>
+<New_food>
+:Name: Burger
+:Type: Food
+:HP_Regen: 50 HP
+:Drop_Rate: 30%
+<End_item>
+<New_melee> 
+:Name: Knife
+:Type: Melee
+:Range: 0.5 Meters
+:Damage: 10 DMG
+:Drop_Rate: 45%
+<End_item>
+<New_melee> 
+:Name: Sword
+:Type: Melee
+:Range: 0.78 Meters
+:Damage: 25 DMG
+:Drop_Rate: 20%
+<End_Item> 
+Finished
