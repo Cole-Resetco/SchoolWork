@@ -1,0 +1,70 @@
+Cole Resetco
+861171355
+
+
+
+1) the explanation of how you calculate the confidence intervals
+
+
+First I took 11 runs of 10000 values and obtained 11 means, 11 sample variences
+using the two pass method, and then 11 sample variences using the single pass
+method. then I took the mean and sample varience of the 11 means, the 11
+single pass sample variences, and the 11 two pass variences. Finally after 
+calculating those 6 values, I calculted 3 confidence Intervals using the mean's 
+mean/varience, the single pass' mean/varience and the double pass' mean/varience
+
+
+
+
+2)a table of the results for four experiments 
+ 
+C= 1
+means: 0.500789, 0.0834203, 0.0834203
+variences: 6.79633e-06, 7.2546e-07, 7.25528e-07
+
+Confidence Interval Mean between 0.50254 and 0.499038
+Confidence Interval 2-pass between 0.0839925 and 0.0828482
+Confidence Interval 1-pass between 0.0839925 and 0.0828481
+
+------------------------------------------------------------------
+C = 10^3
+means: 1000.5, 0.0833479, -0.214131
+variences: 1.71341e-05, 5.33024e-07, 9.289
+
+Confidence Interval Mean between 1000.5 and 1000.5
+Confidence Interval 2-pass between 0.0838383 and 0.0828574
+Confidence Interval 1-pass between 1.83327 and -2.26153
+
+------------------------------------------------------------------
+C = 10^6
+means: 1.00003e+06, 790.253, -1.7904e+07
+variences: 0.00429688, 12.6547, 1.1741e+10
+
+Confidence Interval Mean between 1.00003e+06 and 1.00003e+06
+Confidence Interval 2-pass between 792.642 and 787.863
+Confidence Interval 1-pass between -1.78312e+07 and -1.79768e+07
+
+-------------------------------------------------------------------
+C = 10^9
+means: 9.99974e+08, 6.98788e+08, -4.04239e+13
+variences: 4505.6, 4505.6, 1.93514e+13
+
+Confidence Interval Mean between 9.99974e+08 and 9.99974e+08
+Confidence Interval 2-pass between 6.98789e+08 and 6.98788e+08
+Confidence Interval 1-pass between -4.04239e+13 and -4.04239e+13
+
+
+
+
+3) Explain how adding the constant C to every data item in steps 4–6 should affect
+the sample variancen in theory. Describe what you observed in practice for the 
+two formulas in Eq.(1) and Eq.(2).
+
+
+In theory, having C be much larger shouldn't affect the results of the single
+path method when compared to the double pass method. Both should result in generaly
+the same value because that is what the equasions are ment to do. However, when
+increasing the C in practice, as the number gets higher, the number squared
+gets exponentialy higher, which causes rounding errors. Because the single pass
+method compounds the mean while passing, these rounding errors also compounds
+creating durastically wrong numbers

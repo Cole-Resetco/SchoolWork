@@ -1,0 +1,36 @@
+-Dumb
+EU: 12 = MU 1
+EU: 12 = MU 2
+EU: 12 = MU 3
+EU: 12 = MU 0,1
+EU: 12 = MU 1,1
+EU: 12 = MU 2,1
+EU: 12 = MU 3,1
+EU: 12 = MU 0,2
+EU: 12 = MU 0,0,1
+EU: 12 = MU 1,0,1
+EU: 12 = MU 2,0,1
+-Smart
+EU: 12 = MU 1
+EU: 12 = MU 2
+EU: 12 = MU 3
+EU: 12 = MU 0,1
+EU: 12 = MU 1,1
+EU: 12 = MU 2,1
+EU: 12 = MU 3,1
+EU: 12 = MU 0,2
+EU: 12 = MU 0,0,1
+EU: 12 = MU 1,0,1
+EU: 12 = MU 2,0,1
+-Cache
+EU: 12 = MU 1
+EU: 12 = MU 2
+EU: 12 = MU 3
+EU: 12 = MU 0,1
+EU: 12 = MU 1,1
+EU: 12 = MU 2,1
+EU: 12 = MU 3,1
+EU: 12 = MU 0,2
+EU: 12 = MU 0,0,1
+EU: 12 = MU 1,0,1
+EU: 12 = MU 2,0,1

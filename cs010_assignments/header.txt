@@ -1,0 +1,11 @@
+//  =============== BEGIN ASSESSMENT HEADER ================
+/// @file mathematics.cpp 
+/// @brief assn4/Mathematics
+///
+/// @author Test Student [RSubEmail@ucr.edu]
+/// @date May 1, 2014
+///
+/// @par Plagiarism Section
+/// I hereby certify that I have not received assistance on this assignment, 
+/// or used code, from ANY outside source other than the instruction team.
+//  ================== END ASSESSMENT HEADER ===============
