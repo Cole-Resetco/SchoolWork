@@ -1,0 +1,30 @@
+echo hello
+a.out
+commented_command.sh
+commented_commands
+execute.cpp
+execute.h
+execute.h.gch
+executeold.cpp
+executeold.h
+exit.sh
+exit_commands
+feedback_crese002
+feedback_shwan022
+main.cpp
+multi_command.sh
+multiple_commands
+newmain.cpp
+precedence_script.sh
+remakeparser.cpp
+single_command.sh
+single_commands
+test.txt
+test_script.sh
+testing.txt
+    PID TTY          TIME CMD
+   1685 pts/4    00:00:00 bash
+   1686 pts/4    00:00:00 bash
+   3561 pts/4    00:00:00 a.out
+   3573 pts/4    00:00:00 a.out
+   3580 pts/4    00:00:00 ps
