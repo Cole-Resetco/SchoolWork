@@ -1,0 +1,4 @@
+Question: Why do you think this method is better than the one introduced in Exercise 1? (Hint:
+think of what kind of values you get when you get exactly 1 datapoint)
+
+The data I got via using the second method, seemed to more quicky and accurately reach a better representation of pi. Of course the first data points would be either 0 or 4, but everything from that point onward very quickly reached values similar to pi, and were less likely to deviate. 
